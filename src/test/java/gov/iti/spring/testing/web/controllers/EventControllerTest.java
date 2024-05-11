@@ -15,13 +15,10 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import com.fasterxml.jackson.core.type.TypeReference;
 import java.util.List;
-
 import static org.mockito.Mockito.when;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 @WebMvcTest(EventController.class)
 @Import(WebSecurityConfig.class)
